@@ -1,4 +1,4 @@
-module github.com/aleksskoz/kubedrive/benchmarks
+module github.com/kubedrive/kubedrive/benchmarks
 
 go 1.27.0
 

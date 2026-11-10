@@ -21,7 +21,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/aleksskoz/kubedrive/mcp/mcpbridge"
+	"github.com/kubedrive/kubedrive/mcp/mcpbridge"
 )
 
 // version is set at build time (scripts/mcpb.sh, the app's build).

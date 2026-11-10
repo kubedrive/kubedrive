@@ -1,11 +1,11 @@
 name: mcp-registry
 
 # Publishes a stable release's MCP bundle (kubedrive-<version>.mcpb, built by
-# the release) to the official MCP Registry as io.github.aleksskoz/kubedrive:
+# the release) to the official MCP Registry as io.github.kubedrive/kubedrive:
 # fills mcp/server.json with the version and the bundle's SHA-256 and publishes
 # it with mcp-publisher. The registry keeps metadata only; the bundle stays in
 # the release. Authentication is GitHub Actions OIDC: the registry lets
-# workflows of aleksskoz/* publish under io.github.aleksskoz/*, so no token is
+# workflows of kubedrive/* publish under io.github.kubedrive/*, so no token is
 # stored. Runs when a release is published; a manual run publishes a given tag,
 # or with "dry run" only validates the server.json it would publish.
 on:
@@ -90,5 +90,5 @@ jobs:
           ./mcp-publisher login github-oidc
           ./mcp-publisher publish
           sleep 10
-          curl -fsS "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.aleksskoz/kubedrive" |
+          curl -fsS "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.kubedrive/kubedrive" |
             jq -e --arg v "$(jq -r .version server.json)" '.servers[] | select(.server.version == $v) | .server.name'

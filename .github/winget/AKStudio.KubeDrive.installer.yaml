@@ -18,10 +18,10 @@ InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\AKStudio\KubeDrive'
 Installers:
 - Architecture: x64
-  InstallerUrl: https://github.com/aleksskoz/kubedrive/releases/download/v@VERSION@/KubeDrive-@VERSION@-x64-setup.exe
+  InstallerUrl: https://github.com/kubedrive/kubedrive/releases/download/v@VERSION@/KubeDrive-@VERSION@-x64-setup.exe
   InstallerSha256: @SHA256_X64@
 - Architecture: arm64
-  InstallerUrl: https://github.com/aleksskoz/kubedrive/releases/download/v@VERSION@/KubeDrive-@VERSION@-arm64-setup.exe
+  InstallerUrl: https://github.com/kubedrive/kubedrive/releases/download/v@VERSION@/KubeDrive-@VERSION@-arm64-setup.exe
   InstallerSha256: @SHA256_ARM64@
 ManifestType: installer
 ManifestVersion: 1.10.0

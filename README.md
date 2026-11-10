@@ -9,7 +9,7 @@ A fast, native desktop client for Kubernetes, for macOS, Windows and Linux: clus
 live resources, logs, terminal, Helm and port-forwarding, driven from the keyboard, with an
 MCP server that lets AI agents work on your clusters without a kubeconfig.
 
-[Download](https://github.com/aleksskoz/kubedrive/releases/latest) ·
+[Download](https://github.com/kubedrive/kubedrive/releases/latest) ·
 [Website](https://kubedrive.com) ·
 [Docs](https://kubedrive.com/docs/guide) ·
 [Performance](https://kubedrive.com/performance) ·
@@ -74,7 +74,7 @@ With [Homebrew](https://brew.sh):
 brew install --cask aleksskoz/tap/kubedrive
 ```
 
-Or download `KubeDrive-<version>.dmg` from the [latest release](https://github.com/aleksskoz/kubedrive/releases/latest),
+Or download `KubeDrive-<version>.dmg` from the [latest release](https://github.com/kubedrive/kubedrive/releases/latest),
 open it and drag KubeDrive to Applications. Each release lists the DMG's SHA-256:
 
 ```sh
@@ -85,7 +85,7 @@ The app is signed with a Developer ID and notarized by Apple.
 
 ### Windows
 
-Download `KubeDrive-<version>-x64-setup.exe` from the [latest release](https://github.com/aleksskoz/kubedrive/releases/latest)
+Download `KubeDrive-<version>-x64-setup.exe` from the [latest release](https://github.com/kubedrive/kubedrive/releases/latest)
 (`KubeDrive-<version>-arm64-setup.exe` for Arm PCs) and run it. The installer is not code-signed
 yet, so SmartScreen asks once: **More info → Run anyway**. The release notes carry each installer's
 SHA-256. KubeDrive installs to `C:\Program Files\AKStudio\KubeDrive` and adds the WebView2 runtime if
@@ -120,7 +120,7 @@ sudo dnf install kubedrive
 ```
 
 Or download `kubedrive_<version>_amd64.deb` or `kubedrive-<version>.x86_64.rpm` from the
-[latest release](https://github.com/aleksskoz/kubedrive/releases/latest) and install it with
+[latest release](https://github.com/kubedrive/kubedrive/releases/latest) and install it with
 `sudo apt install ./…` or `sudo dnf install ./…`. The repository and the RPMs are signed with
 KubeDrive's key ([kubedrive.asc](https://kubedrive.com/kubedrive.asc), fingerprint
 `87AE 5682 0F7C 659C 28CF  91F8 9D49 8CCC F6E3 1831`).
@@ -165,7 +165,7 @@ Kubernetes clients open 50,000 pods. They are MIT-licensed, so you can rerun the
 
 ## Feedback
 
-Found a bug or missing something? [Open an issue](https://github.com/aleksskoz/kubedrive/issues).
+Found a bug or missing something? [Open an issue](https://github.com/kubedrive/kubedrive/issues).
 
 ## License
 

@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.aleksskoz/kubedrive",
+  "name": "io.github.kubedrive/kubedrive",
   "title": "KubeDrive",
   "description": "Your Kubernetes clusters for AI agents through the KubeDrive desktop app, without a kubeconfig.",
   "websiteUrl": "https://kubedrive.com/docs/ai-agents",
   "repository": {
-    "url": "https://github.com/aleksskoz/kubedrive",
+    "url": "https://github.com/kubedrive/kubedrive",
     "source": "github"
   },
   "version": "@VERSION@",
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/aleksskoz/kubedrive/releases/download/v@VERSION@/kubedrive-@VERSION@.mcpb",
+      "identifier": "https://github.com/kubedrive/kubedrive/releases/download/v@VERSION@/kubedrive-@VERSION@.mcpb",
       "fileSha256": "@SHA256@",
       "transport": {
         "type": "stdio"
